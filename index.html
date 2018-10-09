@@ -5,16 +5,18 @@
   </head>
   <body>
     <main>
-    </main>
     <form id = "post-form" onsubmit="CreatePost(); return false;">
       Title: <input type="text" id="postTitle"><br>
       Author: <input type = "text" id = "PostAuthor"><br>
       Post: <input type = "text" id = "PostBody"><br>
       <input type="submit">
     </form>
+    </main>
+
     <script src="node_modules/lodash/lodash.min.js"></script>
     <script src="index.js"></script>
     <!-- Open this file and call `mocha.run()` in console to run tests -->
+    
     <div id="mocha"></div>
     <script src="node_modules/mocha/mocha.js"></script>
     <script src="node_modules/expect/umd/expect.min.js"></script>
